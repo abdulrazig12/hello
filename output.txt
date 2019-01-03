@@ -1,2 +1,32 @@
 # This file will be replaced by the compilation and the
 # output produced by the program, something like below
+
+
+pisan@uw1-320-03:~/U/github/pisan133/hello$ ./simplecompile.sh
+Thu Jan  3 12:57:08 PST 2019
+*** Compiling C program
+*** cpplint
+Skipping input '*.cpp': Can't open for reading
+Skipping input '*.h': Can't open for reading
+*** cppcheck C program
+Checking main.c...
+*** running
+Hello, World!
+*** running with valgrind
+==3467== Memcheck, a memory error detector
+==3467== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3467== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3467== Command: ./myprogram.exe
+==3467==
+Hello, World!
+==3467==
+==3467== HEAP SUMMARY:
+==3467==     in use at exit: 0 bytes in 0 blocks
+==3467==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==3467==
+==3467== All heap blocks were freed -- no leaks are possible
+==3467==
+==3467== For counts of detected and suppressed errors, rerun with: -v
+==3467== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+*** cleaning up
+Thu Jan  3 12:57:10 PST 2019
