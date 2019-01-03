@@ -1,0 +1,2 @@
+# This file will be replaced by the compilation and the
+# output produced by the program, something like below
