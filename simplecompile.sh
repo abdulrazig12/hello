@@ -8,7 +8,6 @@
 # redirect the output and stderr from this file to output.txt
 # $ ./simplecompile.sh > output.txt 2>&1
 
-
 date
 
 echo "*** Compiling C program"
