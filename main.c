@@ -5,7 +5,7 @@
  * @date 7 Dec 2018
  */
 
- #include <stdio.h>
+#include <stdio.h>
 
 int main() {
   // unused variable 'i' warning from  -Wall flag
